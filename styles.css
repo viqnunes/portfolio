@@ -1,72 +1,125 @@
 body {
     background: #232946;
+    color: #b8c1ec;
+    font-family:Arial, Helvetica, sans-serif;
 }
+
+i {
+    color: #b3737d;
+}
+
+b { color: #b8626f; }
 
 #menu-content {
-    display: block;
+    width: 100%;
 }
 
-.posiciona-ul {
-    padding-left: 0;
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
 }
 
 .links {
     display: inline-block;
     background: #eebbc3;
-    padding: 13px;
-    margin-left: 5px;
-    color: #121629;
+    padding: 5px 10px 6px 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    color: #232946;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 1.1em;
+    transition: .5s ease;
+    font-weight: bold;
+    box-shadow: 4px 4px 0px 1px rgba(0,0,0,0.1)
+}
 
+.links:hover {
+    background-color: #fffffe;
+    color: #232946;
+    font-weight: bold;
+    transition: .5s ease;
 }
 
 #corpo-site {
-    width:70%;
-    margin: 0 auto;
-    overflow:auto;
-}
-
-#corpo-post {
-    background: #b8c1ec;
-    width: 68%;
-    height: auto;
-    float: right;
-}
-
-.post {
-    padding: 15px
-}
-
-.about {
-    padding: 15px;
-}
-
-.rodape {
-    padding: 15px;
-}
-
-.titulo-site {
-    color:#fffffe;
-}
-
-.titulo-post {
-    color: #232946;
-}
-
-#cabeca {
+    width: 70%;
     margin: 0 auto;
     display: block;
 }
 
-#sidebar {
+.avatar {
+    background: pink;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px auto;
+    border-radius: 100%;
+    box-shadow: 4px 4px 0px 1px rgba(0,0,0,0.1)
+}
+
+#corpo-post {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.post {
+    padding: 15px;
+    color: #b8c1ec;
+    background: #121629;
+    border-radius: 5px;
+    line-height: 1.7em;
+    box-shadow: 4px 4px 0px 1px rgba(0,0,0,0.1)
+}
+
+.about {
+    padding: 15px;
     background: #eebbc3;
-    width: 30%;
-    float: left;
     color: #121629;
+    border-radius: 5px;
+    line-height: 1.7em;
+    box-shadow: 4px 4px 0px 1px rgba(0,0,0,0.1)
+
+}
+
+.rodape {
+    padding: 15px;
+    line-height: 1.7em;
+    box-shadow: 4px 4px 0px 1px rgba(0,0,0,0.1)
+
+}
+
+.titulo-site {
+    color: #fffffe;
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+    font-size: 2.1em;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.titulo-post {
+    color: #fffffe;
+}
+
+#cabeca {
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#sidebar {
+    width: 100%;
 }
 
 #rodape {
     background: #171c31;
     color: #b8c1ec;
-    float: left;
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
+    border-radius: 5px;
+
+}
+
+#final {
+    margin: 20px auto 30px auto;
+    text-align: center;
 }
