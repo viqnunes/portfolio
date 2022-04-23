@@ -1,0 +1,72 @@
+body {
+    background: #232946;
+}
+
+#menu-content {
+    display: block;
+}
+
+.posiciona-ul {
+    padding-left: 0;
+}
+
+.links {
+    display: inline-block;
+    background: #eebbc3;
+    padding: 13px;
+    margin-left: 5px;
+    color: #121629;
+
+}
+
+#corpo-site {
+    width:70%;
+    margin: 0 auto;
+    overflow:auto;
+}
+
+#corpo-post {
+    background: #b8c1ec;
+    width: 68%;
+    height: auto;
+    float: right;
+}
+
+.post {
+    padding: 15px
+}
+
+.about {
+    padding: 15px;
+}
+
+.rodape {
+    padding: 15px;
+}
+
+.titulo-site {
+    color:#fffffe;
+}
+
+.titulo-post {
+    color: #232946;
+}
+
+#cabeca {
+    margin: 0 auto;
+    display: block;
+}
+
+#sidebar {
+    background: #eebbc3;
+    width: 30%;
+    float: left;
+    color: #121629;
+}
+
+#rodape {
+    background: #171c31;
+    color: #b8c1ec;
+    float: left;
+    margin-top: 20px;
+}
