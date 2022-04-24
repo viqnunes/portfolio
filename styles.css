@@ -1,14 +1,14 @@
 body {
-    background: #232946;
-    color: #b8c1ec;
+    background: #0f0e17;
+    color: #a7a9be;
     font-family:Arial, Helvetica, sans-serif;
 }
 
 i {
-    color: #b3737d;
+    color: #a8450c;
 }
 
-b { color: #b8626f; }
+b { color: #fff; }
 
 #menu-content {
     width: 100%;
@@ -22,11 +22,11 @@ ul {
 
 .links {
     display: inline-block;
-    background: #eebbc3;
+    background: #e53170;
     padding: 5px 10px 6px 10px;
     margin-left: 20px;
     border-radius: 5px;
-    color: #232946;
+    color: #fffffe;
     text-decoration: none;
     font-family: monospace;
     font-size: 1.1em;
@@ -36,8 +36,8 @@ ul {
 }
 
 .links:hover {
-    background-color: #fffffe;
-    color: #232946;
+    background-color: #f25f4c;
+    color: #fffffe;
     font-weight: bold;
     transition: .5s ease;
 }
@@ -49,12 +49,14 @@ ul {
 }
 
 .avatar {
-    background: pink;
     width: 150px;
     height: 150px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 30px auto;
     border-radius: 100%;
-    box-shadow: 4px 4px 0px 1px rgba(0,0,0,0.1)
+    justify-content: center;
+    display: flex;
+    border: 8px solid #0a0a0f;
+
 }
 
 #corpo-post {
@@ -65,8 +67,8 @@ ul {
 
 .post {
     padding: 15px;
-    color: #b8c1ec;
-    background: #121629;
+    color: #0f0e17;
+    background: #ebebeb;
     border-radius: 5px;
     line-height: 1.7em;
     box-shadow: 4px 4px 0px 1px rgba(0,0,0,0.1)
@@ -74,8 +76,8 @@ ul {
 
 .about {
     padding: 15px;
-    background: #eebbc3;
-    color: #121629;
+    background: #ff8906;
+    color: #fffffe;
     border-radius: 5px;
     line-height: 1.7em;
     box-shadow: 4px 4px 0px 1px rgba(0,0,0,0.1)
@@ -90,7 +92,7 @@ ul {
 }
 
 .titulo-site {
-    color: #fffffe;
+    color: #f1f1f1;
     font-family: 'Hind', sans-serif;
     font-weight: 400;
     font-size: 2.1em;
@@ -98,7 +100,7 @@ ul {
 }
 
 .titulo-post {
-    color: #fffffe;
+    color: #0f0e17;
 }
 
 #cabeca {
@@ -112,8 +114,8 @@ ul {
 }
 
 #rodape {
-    background: #171c31;
-    color: #b8c1ec;
+    background: #e53170;
+    color: #fffffe;
     margin: 20px 0 20px 0;
     border-radius: 5px;
 
