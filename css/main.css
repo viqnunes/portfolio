@@ -1,15 +1,12 @@
 body {
-    background: #0f0e17;
+    background: #16161a;
     color: #a7a9be;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-    font-weight: bold;
-    color:#e53170;
-    text-decoration-color: #999999;
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
+    color: #2cb67d;
+    text-decoration: none;
 }
 
 i {
@@ -36,7 +33,7 @@ b {
     margin-left: 20px;
     border-radius: 5px;
     background-color: #0a0a0f;
-    color: #e53170;
+    color: #2cb67d;
     text-decoration: none;
     font-family: monospace;
     font-size: 1.1em;
@@ -45,8 +42,7 @@ b {
 }
 
 .links:hover {
-    background: #e53170;
-    color: #fffffe;
+    color: #916BBF;
     font-weight: bold;
     transition: .5s ease;
 }
@@ -74,8 +70,8 @@ b {
 
 .post {
     padding: 15px;
-    color: #0f0e17;
-    background: #fffffe;
+    color: #94a1b2;
+    background: #242629;
     border-radius: 5px;
     line-height: 1.7em;
     box-shadow: 4px 4px 0px 1px rgba(0, 0, 0, 0.2)
@@ -83,7 +79,7 @@ b {
 
 .about {
     padding: 15px;
-    background: #f25f4c;
+    background: #7f5af0;
     color: #fffffe;
     border-radius: 5px;
     line-height: 1.7em;
@@ -97,10 +93,7 @@ b {
 }
 
 .about b {
-    color: #a51c0b;
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
-    text-decoration-color: rgba(255, 255, 255, 0.3);
+    color: #1C0C5B;
 }
 
 .rodape {
@@ -110,7 +103,7 @@ b {
 }
 
 .titulo-site {
-    color: #e9e9e9;
+    color: #d8dadb;
     font-family: 'Hind', sans-serif;
     font-weight: 400;
     font-size: 2.1em;
@@ -119,10 +112,10 @@ b {
 }
 
 .titulo-post {
-    color: #0f0e17;
+    color:  #d8dadb;
     font-family: 'Hind', sans-serif;
     font-weight: 400;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     display: inline-block;
     margin: 10px 0 0 0;
 }
@@ -157,7 +150,7 @@ b {
 }
 
 #rodape {
-    background: #e53170;
+    background: #2cb67d;
     color: #fffffe;
     margin: 20px 0 20px 0;
     border-radius: 5px;
@@ -189,10 +182,11 @@ div {
 }
 
 .lista-li {
-    border: 1px solid #e53170;
+    border: 1px solid #239464;
     background: rgba(241, 241, 241, 0.1);
     padding: 5px 12px;
     border-radius: 5px;
+    margin-bottom: 5px;
 }
 
 .shh {
