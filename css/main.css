@@ -1,195 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
 body {
-    background: #16161a;
-    color: #a7a9be;
-    font-family: Arial, Helvetica, sans-serif;
+  background: #16161a;
+  color: #a7a9be;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-    color: #2cb67d;
-    text-decoration: none;
+  color: #2cb67d;
+  text-decoration: none;
 }
 
 i {
-    color: #a8450c;
+  color: #a8450c;
 }
 
 b {
-    color: #e53170;
-}
-
-#menu-content {
-    width: 100%;
+  color: #e53170;
 }
 
 .menu-ul {
-    display: flex;
-    justify-content: right;
-    padding: 0;
+  display: flex;
+  justify-content: right;
 }
 
 .links {
-    display: inline-block;
-    padding: 5px 10px 6px 10px;
-    margin-left: 20px;
-    border-radius: 5px;
-    background-color: #0a0a0f;
-    color: #2cb67d;
-    text-decoration: none;
-    font-family: monospace;
-    font-size: 1.1em;
-    transition: .5s ease;
-    font-weight: bold;
+  display: inline-block;
+  margin-left: 20px;
+  padding: 5px 10px 6px 10px;
+  border-radius: 5px;
+  background-color: #0a0a0f;
+  color: #d8dadb;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 1.1em;
+  transition: 0.5s ease;
+  font-weight: bold;
 }
 
 .links:hover {
-    color: #916BBF;
-    font-weight: bold;
-    transition: .5s ease;
+  text-shadow: 0 0 5px #e7e7e7;
+  font-weight: bold;
+  transition: 0.5s ease;
 }
 
 #corpo-site {
-    width: 70%;
-    margin: 0 auto;
-    display: block;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
 }
 
 .avatar {
-    width: 90px;
-    height: 90px;
-    border-radius: 100%;
-    float: left;
-    border: 5px solid #0a0a0f;
-
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  border: 5px solid #0a0a0f;
 }
 
 #corpo-post {
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
 }
 
 .post {
-    padding: 15px;
-    color: #94a1b2;
-    background: #242629;
-    border-radius: 5px;
-    line-height: 1.7em;
-    box-shadow: 4px 4px 0px 1px rgba(0, 0, 0, 0.2)
+  padding: 15px;
+  color: #94a1b2;
+  background: #242629;
+  border-radius: 5px;
+  line-height: 1.7em;
+  box-shadow: 4px 4px 0px 1px rgba(0, 0, 0, 0.2);
 }
 
 .about {
-    padding: 15px;
-    background: #7f5af0;
-    color: #fffffe;
-    border-radius: 5px;
-    line-height: 1.7em;
-    box-shadow: 4px 4px 0px 1px rgba(0, 0, 0, 0.2);
-    font-family: 'Hind', sans-serif;
-    font-weight: 400;
+  padding: 15px;
+  background: #7f5af0;
+  color: #fffffe;
+  border-radius: 5px;
+  line-height: 1.7em;
+  box-shadow: 4px 4px 0px 1px rgba(0, 0, 0, 0.2);
+  font-family: "Hind", sans-serif;
+  font-weight: 400;
 }
 
 .about h2 {
-    color: #fff;
+  color: #fff;
 }
 
 .about b {
-    color: #1C0C5B;
+  color: #1c0c5b;
 }
 
 .rodape {
-    padding: 15px;
-    line-height: 1.7em;
-    box-shadow: 4px 4px 0px 1px rgba(0, 0, 0, 0.2)
+  padding: 15px;
+  line-height: 1.7em;
+  box-shadow: 4px 4px 0px 1px rgba(0, 0, 0, 0.2);
 }
 
 .titulo-site {
-    color: #d8dadb;
-    font-family: 'Hind', sans-serif;
-    font-weight: 400;
-    font-size: 2.1em;
-    text-align: right;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  color: #d8dadb;
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-size: 2.1em;
+  text-align: left;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 0 10px #cacaca;
+  margin-left: 10px;
+  margin-bottom: 30px;
 }
 
 .titulo-post {
-    color:  #d8dadb;
-    font-family: 'Hind', sans-serif;
-    font-weight: 400;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    display: inline-block;
-    margin: 10px 0 0 0;
+  color: #d8dadb;
+  font-family: "Hind", sans-serif;
+  font-weight: 400;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  margin: 10px 0 0 0;
+  font-size: 1.6em;
 }
 
 .titulo-2nd {
-    color: #fffff2;
-    font-family: 'Hind', sans-serif;
-    font-weight: bold;
-    border-bottom: 1px solid rgba(241, 241, 241, 0.2);
-    display: inline-block;
-    margin: 10px 0 0 0;
+  color: #fffff2;
+  font-family: "Hind", sans-serif;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(241, 241, 241, 0.2);
+  display: inline-block;
+  margin: 10px 0 0 0;
+  font-size: 1.6em;
+}
+
+.titulo-footer {
+  color: #fffff2;
+  font-family: "Hind", sans-serif;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(241, 241, 241, 0.2);
+  display: inline-block;
+  margin: 10px 0 0 0;
+  font-size: 1.1em;
 }
 
 .titulo-3rd {
-    float: right;
-    margin-right: 10px;
+  float: right;
+  margin-right: 10px;
+}
+
+.projetos {
+  color:#0a0a0f;
+  display: inline;
+  background: #2cb67d;
+  padding: 8px;
+  border-radius: 5px;
 }
 
 .cor {
-    color: #ff8906;
-    border-bottom: 1px solid rgba(241, 241, 241, 0.2);
+  color: #ff8906;
+  border-bottom: 1px solid rgba(241, 241, 241, 0.2);
 }
 
 #cabeca {
-    margin: 0 auto;
-    text-align: center;
-
+  margin: 0 auto;
+  text-align: center;
 }
 
 #sidebar {
-    width: 100%;
+  width: 100%;
 }
 
 #rodape {
-    background: #2cb67d;
-    color: #fffffe;
-    margin: 20px 0 20px 0;
-    border-radius: 5px;
-
+  background: #2cb67d;
+  color: #fffffe;
+  margin: 20px 0 20px 0;
+  border-radius: 5px;
 }
 
 #final {
-    margin: 20px auto 30px auto;
-    text-align: right;
-    font-family: monospace;
-    text-transform: uppercase;
+  margin: 20px auto 30px auto;
+  text-align: right;
+  font-family: monospace;
+  text-transform: uppercase;
 }
 
 .versao {
-    text-align: left;
+  text-align: left;
 }
 
 div {
-    clear: both;
+  clear: both;
 }
 
 .lista-ul {
-    display: inline-table;
-    flex-direction: row;
-    width: 49.4%;
-    flex-wrap: wrap;
-    list-style-type: none;
-    padding: 0;
+  display: inline-table;
+  flex-direction: row;
+  width: 49.4%;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
 }
 
 .lista-li {
-    border: 1px solid #239464;
-    background: rgba(241, 241, 241, 0.1);
-    padding: 5px 12px;
-    border-radius: 5px;
-    margin-bottom: 5px;
+  border: 1px solid #239464;
+  background: rgba(241, 241, 241, 0.1);
+  padding: 5px 12px;
+  border-radius: 5px;
+  margin-bottom: 5px;
 }
 
 .shh {
-    color:#e53170;
-    font-size: 12px;
+  color: #e53170;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    margin: 20px;
+  }
+
+  #corpo-site {
+    width: 100%;
+    margin: 0;
+  }
+
+  .menu-ul,
+  .titulo-site {
+    margin: 15px 10px 15px 10px;
+  }
+
+  .titulo-site {
+    margin: 25px 0 25px 0;
+    text-shadow: 0 0 6px #929292;
+  }
+
+  #cabeca {
+    margin-top: 25px;
+  }
+
+  #rodape,
+  .about,
+  .post {
+    border-radius: 0;
+  }
 }
